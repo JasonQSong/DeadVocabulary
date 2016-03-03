@@ -1,0 +1,165 @@
+﻿<Window x:Class="WpfDeadVocabulary.OptionWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:WpfDeadVocabulary"
+    Title="Options" 
+        Height="600" Width="600" 
+        FontFamily="Segoe UI,Comic Sans MS,Arial,微软雅黑" 
+        ResizeMode="CanResizeWithGrip"
+        WindowStyle="ToolWindow" ShowInTaskbar="False">
+    <Window.Resources>
+        
+        <DataTemplate x:Key="FirstCell">
+            <StackPanel Orientation="Horizontal">
+                <CheckBox IsChecked="{Binding Path=BookSelected}"/>
+            </StackPanel>
+        </DataTemplate>
+
+        <Style x:Key="CheckBoxPresetStyle" TargetType="CheckBox">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="CheckBox">
+                        <Border x:Name="CheckBoxBorder" Background="SkyBlue" CornerRadius="5">
+                            <Grid x:Name="CheckBoxContent">
+                                <TextBlock Foreground="White" VerticalAlignment="Center" HorizontalAlignment="Center">
+                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center" />
+                                </TextBlock>
+                            </Grid>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsChecked" Value="True">
+                                <Setter TargetName="CheckBoxBorder" Property="Background" Value="DodgerBlue"/>
+                            </Trigger>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="CheckBoxContent" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="1.2" ScaleY="1.2" CenterX="{Binding ActualWidth, Converter={StaticResource DevideBy2Converter}, RelativeSource={RelativeSource TemplatedParent}}" CenterY="{Binding ActualHeight, Converter={StaticResource DevideBy2Converter}, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                            <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="CheckBoxContent" Property="RenderTransform">
+                                    <Setter.Value>
+                                        <ScaleTransform ScaleX="0.9" ScaleY="0.9" CenterX="{Binding ActualWidth, Converter={StaticResource DevideBy2Converter}, RelativeSource={RelativeSource TemplatedParent}}" CenterY="{Binding ActualHeight, Converter={StaticResource DevideBy2Converter}, RelativeSource={RelativeSource TemplatedParent}}"/>
+                                    </Setter.Value>
+                                </Setter>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid Margin="10,20,10,20">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="250"/>
+                    <ColumnDefinition />
+                </Grid.ColumnDefinitions>
+                <Grid Grid.Column="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto" />
+                        <RowDefinition Height="auto"/>
+                        <RowDefinition />
+                    </Grid.RowDefinitions>
+
+                    <GroupBox Grid.Row="0" Header="Select Mode" Margin="3,3,3,3">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox Name="buttonPresetMaster" Grid.Column="0" Style="{StaticResource CheckBoxPresetStyle}" Margin="3,3,3,3" Click="buttonPresetMaster_Click" IsChecked="{Binding ElementName=radioJudgeSpell, Path=IsChecked}">Master</CheckBox>
+                            <CheckBox Name="buttonPresetUnderstand" Grid.Column="1" Style="{StaticResource CheckBoxPresetStyle}" Margin="3,3,3,3" Click="buttonPresetUnderstand_Click" IsChecked="{Binding ElementName=radioJudgeSelect, Path=IsChecked}" >Understand</CheckBox>
+                            <CheckBox Name="buttonPresetVague" Grid.Column="2" Style="{StaticResource CheckBoxPresetStyle}" Margin="3,3,3,3" Click="buttonPresetVague_Click" IsChecked="{Binding ElementName=radioJudgeChoose, Path=IsChecked}">Vague</CheckBox>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Grid.Row="1" Margin="3,3,3,3">
+                        <GroupBox.Header>
+                            <StackPanel Orientation="Horizontal">
+                                <CheckBox IsChecked="{Binding ElementName=AdvancedOptionsPanel, Path=Visibility, Converter={StaticResource VisibilityCollapse2BoolConverter}}"></CheckBox>
+                                <TextBlock>Advanced Options</TextBlock>
+                            </StackPanel>
+                        </GroupBox.Header>
+                        <Grid x:Name="AdvancedOptionsPanel" Visibility="Collapsed">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <CheckBox Name="checkBoxShowWord" Grid.Column="0" Grid.Row="0" Margin="3,3,3,3">Show word</CheckBox>
+                            <CheckBox Name="checkBoxShowPho" Grid.Column="0" Grid.Row="1" Margin="3,3,3,3">Show phonetic</CheckBox>
+                            <CheckBox Name="checkBoxPlaySound" Grid.Column="1" Grid.Row="1" Margin="3,3,3,3">Play sound</CheckBox>
+                            <CheckBox Name="checkBoxShowDes" Grid.Column="0" Grid.Row="2" Margin="3,3,3,3">Show description</CheckBox>
+                            <CheckBox Name="checkBoxShowDesOne" Grid.Column="1" Grid.Row="2" Margin="3,3,3,3">One</CheckBox>
+                            <CheckBox Name="checkBoxShowSen" Grid.Column="0" Grid.Row="3" Margin="3,3,3,3">Show sentence</CheckBox>
+                            <CheckBox Name="checkBoxShowSenOne" Grid.Column="1" Grid.Row="3" Margin="3,3,3,3">One</CheckBox>
+                            <GroupBox Grid.Column="0" Grid.Row="4" Grid.ColumnSpan="2" Header="New words" Margin="3,3,3,3">
+                                <Grid >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <RadioButton Name="radioNewWordsRandom" Grid.Column="0" Margin="3,3,3,3">Random</RadioButton>
+                                    <RadioButton Name="radioNewWordsOrderly" Grid.Column="1" Margin="3,3,3,3">Orderly</RadioButton>
+                                    <RadioButton Name="radioNewWordsUnit" Grid.Column="2" Margin="3,3,3,3">Unit</RadioButton>
+                                </Grid>
+                            </GroupBox>
+
+                            <GroupBox Grid.Column="0" Grid.Row="5" Grid.ColumnSpan="2" Header="Judge" Margin="3,3,3,3">
+                                <Grid >
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <RadioButton Name="radioJudgeSpell" Grid.Column="0" Margin="3,3,3,3">Spell</RadioButton>
+                                    <RadioButton Name="radioJudgeSelect" Grid.Column="1" Margin="3,3,3,3" >Select</RadioButton>
+                                    <RadioButton Name="radioJudgeChoose" Grid.Column="2" Margin="3,3,3,3">Choose</RadioButton>
+                                </Grid>
+                            </GroupBox>
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Grid.Row="2" Header="Select Books" Margin="3,3,3,3">
+                        <GroupBox.Resources>
+                        </GroupBox.Resources>
+                        <ListView Name="listViewSelectSources" Margin="3,3,3,3" ItemsSource="{Binding}" >
+                            <ListView.View>
+                                <GridView>
+                                        <!--<SnippetGridViewColumnCheckBox>-->
+                                        <GridViewColumn CellTemplate="{StaticResource FirstCell}" Width="30"/>
+                                        <!--</SnippetGridViewColumnCheckBox>-->
+                                        <GridViewColumn Header="Book" DisplayMemberBinding="{Binding Path=Book}" Width="80"/>
+                                        <GridViewColumn Header="Count" DisplayMemberBinding="{Binding Path=Count}" Width="80"/>
+                                    </GridView>
+                            </ListView.View>
+                        </ListView>
+                    </GroupBox>
+                </Grid>
+                <Grid Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition />
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <GroupBox Grid.Row="0" Header="Detail" Margin="3,3,3,3">
+                        <TextBox Name="textBoxDetail" IsReadOnly="True" TextWrapping="Wrap">Detail</TextBox>
+                    </GroupBox>
+                    <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Button Name="buttonOK" Height="20" Width="80" Margin="3,3,3,3" Click="buttonOK_Click">OK</Button>
+                        <Button Name="buttonCancel" Height="20" Width="80" Margin="3,3,3,3" Click="buttonCancel_Click">Cancel</Button>
+                    </StackPanel>
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

@@ -1,0 +1,12 @@
+﻿<Application x:Class="WpfDeadVocabulary.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfDeadVocabulary"
+             StartupUri="StudyWindow.xaml" ShutdownMode="OnLastWindowClose">
+    <Application.Resources>
+        <local:WindowState2BoolConverter x:Key="WindowState2BoolConverter" />
+        <local:VisibilityCollapse2BoolConverter x:Key="VisibilityCollapse2BoolConverter" />
+        <local:Text2VisibilityCollapseConverter x:Key="Text2VisibilityCollapseConverter" />
+        <local:DevideBy2Converter x:Key="DevideBy2Converter" />
+    </Application.Resources>
+</Application>

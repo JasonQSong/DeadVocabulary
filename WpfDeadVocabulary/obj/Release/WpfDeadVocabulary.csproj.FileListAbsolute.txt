@@ -1,0 +1,76 @@
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\ResolveAssemblyReference.cache
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\MainWindow.baml
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\OptionWindow.baml
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\StudyWindow.baml
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\App.baml
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\MainWindow.g.cs
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\OptionWindow.g.cs
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\StudyWindow.g.cs
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\App.g.cs
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary_MarkupCompile.cache
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.g.resources
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.csproj.GenerateResource.Cache
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\Book.xlsx
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.exe.manifest
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.application
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.exe
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.pdb
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Office.Interop.Excel.dll
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\office.dll
+E:\test\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Vbe.Interop.dll
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.Properties.Resources.resources
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.exe.manifest
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.application
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.exe
+E:\test\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.pdb
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.exe
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.pdb
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\voice.zip
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.exe
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.pdb
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Office.Interop.Excel.dll
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\office.dll
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Vbe.Interop.dll
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Office.Interop.Excel.xml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\office.xml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.csprojResolveAssemblyReference.cache
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\MainWindow.baml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\OptionWindow.baml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\StudyWindow.baml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\App.baml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\MainWindow.g.cs
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\OptionWindow.g.cs
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\StudyWindow.g.cs
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\App.g.cs
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary_MarkupCompile.cache
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.g.resources
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.Properties.Resources.resources
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.csproj.GenerateResource.Cache
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary_MarkupCompile.lref
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Windows.Shell.dll
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Windows.Shell.pdb
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\Microsoft.Windows.Shell.xml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\ribboncontrolslibrary.dll
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\ribboncontrolslibrary.pdb
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\ribboncontrolslibrary.xml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.exe.config
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\data\FullVocabulary.xml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\SearchBar.baml
+E:\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\SearchBar.g.cs
+F:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.exe.config
+F:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.exe
+F:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.pdb
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\bin\Release\WpfDeadVocabulary.exe.config
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.exe
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.pdb
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary.csprojResolveAssemblyReference.cache
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\MainWindow.baml
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\SearchBar.baml
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\MainWindow.g.cs
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\OptionWindow.g.cs
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\SearchBar.g.cs
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\App.g.cs
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\GeneratedInternalTypeHelper.g.cs
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary_MarkupCompile.cache
+E:\Projects\2014\Visual Studio Projects\DeadVocabulary\WpfDeadVocabulary\obj\Release\WpfDeadVocabulary_MarkupCompile.lref
